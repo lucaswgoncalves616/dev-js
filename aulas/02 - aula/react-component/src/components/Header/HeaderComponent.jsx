@@ -4,6 +4,9 @@ import "./index.css";
 
 function HeaderComponent() {
 
+    console.log("Lucas Wendell");
+    console.log("27");
+    console.log(7+3);
     return (
         <>
         <header>
