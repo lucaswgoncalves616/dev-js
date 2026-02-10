@@ -8,4 +8,5 @@ function displayName(fullName) {
     return `Hello! ${name} ${lastName}!`;
 }
 
+
 console.log(displayName(fullName));
