@@ -14,7 +14,7 @@ export default function Aside() {
     return (
         <aside>
             <AsideContainer>
-                <p>asdaosdkaosd</p>
+                <p>bah meo</p>
             </AsideContainer>
         </aside>
     )
