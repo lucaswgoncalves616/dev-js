@@ -1,0 +1,27 @@
+.dockWrapper {
+    background-color: rgba(0, 255, 247, 0.76);
+    width: 260px;
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    box-shadow: black 0 5px 15px,
+                black 5px 10px 15px;
+
+    padding: 8px 26px;
+}
+
+.dockWrapper img {
+    width: 36px;
+
+    transition: 0.2s;
+}
+
+.dockWrapper img:hover {
+    transform: translateY(-6px);
+    cursor: pointer;
+}
+
+.dockWrapper img:active {
+    transform: translateY(0);
+}
