@@ -5,11 +5,36 @@ body {
     margin: 50px;
 }
 
-.form-container {
-    margin-bottom: 20px;
-}
-
 .my-h1 {
     font-size: 2.2em;
     padding: 18px 0;
+    margin-top: 32px;
+}
+
+.counter-container {
+    display: flex;
+    background-color: #9352cc;
+    justify-content: space-between;
+    border-radius: 12px;
+    font-size: 2em;
+    width: 160px;
+}
+
+.counter-container button {
+    background-color: #5c3380;
+    width: 46px;
+
+    transition: 0.1s;
+}
+
+.counter-container button:active {
+    scale: 0.90;
+}
+
+.btn-increase {
+    border-radius: 0 12px 12px 0;
+}
+
+.btn-decrease {
+    border-radius: 12px 0 0 12px;
 }
