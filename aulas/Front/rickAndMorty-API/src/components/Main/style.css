@@ -1,0 +1,44 @@
+body {
+    background-color: var(--color-primary);
+}
+
+main {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-black);
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 191px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    width: 587px;
+
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: var(--color-white);
+
+        span {
+            color: var(--color-primary);
+        }
+    }
+
+    p {
+        color: var(--color-white);
+        font-size: 20px;
+    }
+}
+
+.button-wrapper-main {
+    display: flex;
+    gap: 20px;
+}
