@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #0d0d0d, #424242);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    min-height: 100vh;
+}
