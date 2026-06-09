@@ -1,12 +1,13 @@
 import {
-    Container, ScheduleBottom, ScheduleBottomContainer, ScheduleBottomIcon,
-    ScheduleBottomTitle, ScheduleTop, ScheduleTopAvatar, ScheduleTopContent,
+    ScheduleBottom, ScheduleBottomContainer, ScheduleBottomIcon,
+    ScheduleBottomTitle, ScheduleCardContainer,
+    ScheduleHorizontalLine, ScheduleTop, ScheduleTopAvatar, ScheduleTopContent,
     ScheduleTopDescription, ScheduleTopIcon, ScheduleTopLabel, ScheduleTopTitle
 } from "./style";
 
 export const ScheduleCard = () => {
     return(
-        <Container>
+        <ScheduleCardContainer>
             <ScheduleTop>
                 <ScheduleTopContent>
                     <ScheduleTopAvatar source={require('../../assets/doctor.png')} />
@@ -17,6 +18,7 @@ export const ScheduleCard = () => {
                 </ScheduleTopContent>
                 <ScheduleTopIcon source={require('../../assets/arrow-right.png')} />
             </ScheduleTop>
+            <ScheduleHorizontalLine/>
             <ScheduleBottom>
                 <ScheduleBottomContainer>
                     <ScheduleBottomIcon source={require('../../assets/calendar-icon.png')} />
@@ -24,9 +26,9 @@ export const ScheduleCard = () => {
                 </ScheduleBottomContainer>
                 <ScheduleBottomContainer>
                     <ScheduleBottomIcon source={require('../../assets/clock-icon.png')} />
-                    <ScheduleBottomTitle>2:00  - 7:00</ScheduleBottomTitle>
+                    <ScheduleBottomTitle>2:00 - 7:00</ScheduleBottomTitle>
                 </ScheduleBottomContainer>
             </ScheduleBottom>
-        </Container>
+        </ScheduleCardContainer>
     )
 }

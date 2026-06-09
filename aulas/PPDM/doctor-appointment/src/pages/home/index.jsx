@@ -1,5 +1,6 @@
 import {Container, Greetings, GreetingsAvatar, GreetingsSpan, GreetingsText, GreetingsTitle} from "./style";
 import {ScheduleCard} from "../../component/schedule-card";
+import {SearchArea} from "../../component/search-area";
 
 export const Home = () => {
 
@@ -13,6 +14,7 @@ export const Home = () => {
                 <GreetingsAvatar source={require("../../assets/greetings.png")} />
             </Greetings>
             <ScheduleCard/>
+            <SearchArea/>
         </Container>
     )
 }
